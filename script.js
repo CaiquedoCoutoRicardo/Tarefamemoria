@@ -1,4 +1,4 @@
-const cardValues = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6]; // Pares de cartas
+const cardValues = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
 let shuffledValues = shuffleArray(cardValues);
 let firstCard = null;
 let secondCard = null;
@@ -84,5 +84,4 @@ function restartGame() {
   victoryMessage.classList.add('hidden');
 }
 
-// Inicializa o tabuleiro ao carregar a página
 createBoard();
